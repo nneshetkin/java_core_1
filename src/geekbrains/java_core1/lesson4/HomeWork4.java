@@ -1,7 +1,5 @@
 package geekbrains.java_core1.lesson4;
 
-
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -129,7 +127,7 @@ public class HomeWork4 {
     private static void humanTurn() {
         int x, y;
         do {
-            System.out.printf("%s введите координаты х и у через пробел >>>>>", playerOneName);
+            System.out.printf("%s введите координаты х и у через пробел >>>>>>", playerOneName);
             x = SCANNER.nextInt() - 1;
             y = SCANNER.nextInt() - 1;
         } while (!isCellValid(x, y) || !isCellEmpty(x, y));
@@ -164,7 +162,6 @@ public class HomeWork4 {
             }
         }
     }
-
     private static void printField() {
         System.out.print("+");
         for (int i = 0; i < fieldSizeX * 2 + 1; i++)
