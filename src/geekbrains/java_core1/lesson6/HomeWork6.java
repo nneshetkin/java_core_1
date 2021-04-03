@@ -10,7 +10,7 @@ public class HomeWork6 {
         c.swim(c.distanceSwim);
         d.run(d.distanceRun);
         d.swim(d.distanceSwim);
-        System.out.printf("Всего сздано %s животных из них %s котов и %s собак", c.count , c.catCount,d.dogCount);
+        System.out.printf("Всего создано %s животных из них %s котов и %s собак", c.count , c.catCount,d.dogCount);
 
 
     }
